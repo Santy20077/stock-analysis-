@@ -1,7 +1,4 @@
 # stock-analysis
-Here’s a professional and clean **README.md** for your project:
-
-
 ---
 
 # 📈 Stock Analysis & Long-Term Investment Ranking
